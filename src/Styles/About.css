@@ -1,0 +1,62 @@
+.about-upper-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+.about-container{
+    background-color: #fffbfb;
+   
+}
+.upper-left{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.about-text{
+    line-height: 20px;
+    font-weight: 500;
+    font-size: medium;
+    letter-spacing: 1px;
+    color: rgb(19, 19, 63);
+}
+.about-text::first-letter{
+    font-size: x-large;
+    font-weight: 600;
+    color: black;
+}
+.bout-hubuzz-title{
+    text-align: center;
+    font-size: larger;
+}
+body {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-y: auto;   /* Allow vertical scroll */
+  }
+.about-lower-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (max-width: 980px) {
+    .about-upper-sec {
+      flex-direction: column; /* Stack upper section elements vertically */
+      align-items: center;
+    }
+  
+    .about-lower-section {
+      flex-direction: column; /* Stack lower section elements vertically */
+      align-items: center;
+    }
+  
+    .pilartemplate {
+      margin-bottom: 20px; /* Add some spacing between columns */
+      width: 100%;
+    }
+  
+    /* Adjust the image in the slideshow to fit smaller screens */
+    .slideshow img {
+      width: 100%; /* Make images responsive */
+      height: auto;
+    }
+  }

@@ -1,0 +1,111 @@
+.navigations-horizontal {
+    padding-left: 10em;
+}
+
+.nav-menu {
+    color: #19181C;
+    font-weight: 700;
+    padding-right: 5em;
+    text-decoration: none;
+}
+.nav-menu.active {
+    text-decoration: underline;
+     /* Change to the desired active color */
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fcf6f6;
+    position: static;
+    z-index: 1;
+    width: 100vw;
+    height: 13vh;
+}
+
+.logo {
+    height: 53px;
+    width: 100px;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
+.product-popup {
+    margin-left: 39%;
+    width: 10vw;
+    position: fixed;
+    z-index: 2;
+}
+
+.product-categories {
+    padding-left: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #c5a0a0;
+    font-weight: 600;
+}
+
+.hamburger-menu {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    left: 89%;
+    display: none; /* Hide by default */
+}
+.Pop{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1200px) {
+    .navigations-horizontal {
+        display: none; /* Hide horizontal menu */
+        
+    }
+
+    .hamburger-menu {
+        display: block; /* Show hamburger menu */
+        cursor: pointer;
+    }
+
+    /* Toggle horizontal menu visibility */
+    .navigations-horizontal.show {
+        display: block; /* Show the menu when hamburger is clicked */
+        flex-direction: column;
+        padding-left: 0; /* Adjust padding for vertical layout */
+       
+    }
+
+    .nav-menu {
+        display: block; /* Show the menu when hamburger is clicked */
+        flex-direction: column;
+        position: relative;
+        left: 55vw;
+        top:8em;
+        background-color: #fcf6f6;
+        padding-top: 10px;
+        padding-top: 6px;
+        padding-left: 10px;
+        margin: 2px;
+        z-index: 1;
+        text-align: center;
+    }
+    .navigation {
+        background-color: #FFFFFF;
+    }
+    .product-popup{
+       position: absolute;
+       left: 15%;
+       width: 25%;
+       top:7em;
+       
+    
+    }
+    
+}

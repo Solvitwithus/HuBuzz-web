@@ -1,0 +1,27 @@
+.icon-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pilar-card{
+    background-color: #ffffff;
+    margin-top: 1em;
+    padding: 1em;
+    width: 25vw;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0px;
+}
+.icon-hd{
+    padding-left: 10px;
+    font-size: medium;
+    color: #0f1417;
+}
+.pillar-txt{
+    color: #1d282d;
+    font-weight: 400;
+    font-size:medium;
+}
+.pillar-txt::first-letter{
+    color: brown;
+}

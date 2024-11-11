@@ -1,0 +1,148 @@
+#contact-cont{
+    background-color: #ffffff;
+    
+}
+.contact-upper-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.contact-upper-left{
+
+}
+.contact-upper-right{
+    box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+
+
+}
+.delivery {
+    display: block; /* or inline-block, depending on your layout */
+    margin: 0 auto;
+    text-align: center; /* Center text inside the span */
+    color: #0a1b3a;
+    font-weight: 600;
+  }
+.maps-image{
+    height:53vh ;
+    width: 50vw;
+}
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .footer{
+    background-color: #08101F;
+    height: 50vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+    position: relative;
+  }
+
+  .styled-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 16px;
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    
+  }
+  
+  .styled-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  .styled-button:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+    transform: translateY(0); /* Reset lift */
+  }
+  
+  .clear-button {
+    background-color: #f5f5f5; /* Light gray background for a subtle look */
+    color: #333; /* Dark gray text color */
+  }
+  
+  .clear-button:hover {
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  .clear-button:active {
+    background-color: #cccccc; /* Even darker gray when clicked */
+    transform: translateY(0); /* Reset lift */
+  }
+
+  .btn-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+  }
+
+  .footer-left-indexone{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .the-icons {
+    display: inline-flex;
+    gap: 8px; /* Optional: spacing between items */
+    align-items: center; /* Aligns text and images vertically */
+  }
+  
+  .the-icons img, 
+  .the-icons p {
+    display: inline-block;
+    margin: 0; /* Removes default margins from p tags */
+  }
+  .icon {
+    width: 30px; /* Adjust as needed */
+    height: 30px;
+  }
+
+  .products-footer{
+    display: block;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 10px; /* Positions near bottom of footer */
+    width: 100%; /* Allows centering with text-align */
+    text-align: center; /* Centers text */
+    font-size: 14px;
+    color: #ffffff;
+  }

@@ -1,0 +1,33 @@
+.card-containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background-color: #f7e8e8;
+    width: 25vw;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li{
+    list-style: none;
+}
+.was-price{
+    text-decoration: line-through;
+    color: red;
+    font-size: larger;
+}
+.now-price{
+    color: blue;
+    font-size: larger;
+}
